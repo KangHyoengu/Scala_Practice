@@ -17,7 +17,7 @@ object LearnPrint {
     println(s"3. $x + $y = ${x + y}")
 
     // printf도 사용 가능합니다.
-    // java.lang.*은 자동으로 import됩니다.
+    // java.lang.*은 자동으로 import 됩니다.
     // java.lang.Math도 포함입니다.
     printf("4. Pi is %f", Math.PI)
   }
